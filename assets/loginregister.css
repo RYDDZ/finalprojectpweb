@@ -1,0 +1,32 @@
+.card {
+    background: linear-gradient(rgb(220, 190, 237), rgb(96, 68, 113) 70%,rgb(101, 21, 133));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.card .form-control {
+    border-radius: 20px;
+    box-shadow: rgb(101, 21, 133) 0px 10px 10px -5px;
+    border-inline: 2px solid transparent;
+    border: none;
+}
+
+.card .btn {
+    background: linear-gradient(90deg, rgb(101, 21, 133), rgb(126, 11, 171));
+    background-size: cover;
+    box-shadow: rgb(71, 15, 93) 0px 20px 10px -15px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card .btn:hover {
+    transform: scale(1.05);
+    box-shadow: rgb(101, 21, 133) 0px 23px 10px -20px;
+}
+
+text {
+    color: white;
+}
